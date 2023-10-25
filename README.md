@@ -30,5 +30,48 @@ Each citizen can also have one superior and any number of subordinates, both dir
 
 The `Society` class represents the entire Martian Robot Society and is responsible for managing the hierarchical structure. It tracks the head of the entire society (the root of the hierarchy) and provides operations for managing citizens within the society. This includes adding new citizens, removing citizens, or finding citizens based on their ID numbers.
 
-## Usage
+## Features
 
+The Martian Robot Society Hierarchy project offers a wide array of features and functionalities for modeling and managing the hierarchical organization. Here are the key features:
+
+### Citizen Management
+
+- **Add and Remove Subordinates**: Citizens can add or remove subordinates, defining their position within the hierarchy.
+
+- **Change Superior**: Citizens can change their superior, allowing for a flexible hierarchical structure.
+
+- **Retrieve Citizens**: Easily retrieve citizens by their unique ID numbers.
+
+### Hierarchy Exploration
+
+- **Get Subordinates**: Access both direct and indirect subordinates of a citizen.
+
+- **Society Head**: Find the head of the entire society, serving as the root of the hierarchy.
+
+- **Find Common Superior**: Determine the closest common superior of two citizens based on their IDs.
+
+### Society Management
+
+- **Citizen Lookup**: Retrieve specific citizens based on their unique IDs.
+
+- **Get All Citizens**: Obtain a comprehensive list of all citizens within the society.
+
+- **Add New Citizens**: Add new citizens to the society, maintaining the hierarchical structure.
+
+- **Job-Based Citizen Retrieval**: Identify citizens based on their specific job roles within the society.
+
+### District Leadership
+
+- **District Leader**: Introduce DistrictLeaders who manage specific districts, which can be geographical or domain-based.
+
+- **List District Citizens**: Obtain a list of all citizens within a district led by a DistrictLeader, including subordinates.
+
+- **District Name Handling**: Determine and rename the name of the district led by a DistrictLeader.
+
+- **Role Transition**: Change the role of citizens between DistrictLeader and ordinary citizen as their responsibilities evolve.
+
+### Promotion and Deletion
+
+- **Promote Citizens**: Promote ordinary citizens based on their ratings, including swapping positions with superiors if necessary.
+
+- **Citizen Deletion**: Safely remove citizens from the society while preserving the hierarchical structure.
