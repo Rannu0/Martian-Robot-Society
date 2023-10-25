@@ -34,7 +34,7 @@ The `Society` class represents the entire Martian Robot Society and is responsib
 
 The Martian Robot Society Hierarchy project offers a wide array of features and functionalities for modeling and managing the hierarchical organization. Here are the key features:
 
-### Citizen Management
+### 📋 Citizen Management 
 
 - **Add and Remove Subordinates**: Citizens can add or remove subordinates, defining their position within the hierarchy.
 
@@ -42,7 +42,7 @@ The Martian Robot Society Hierarchy project offers a wide array of features and 
 
 - **Retrieve Citizens**: Easily retrieve citizens by their unique ID numbers.
 
-### Hierarchy Exploration
+### 🔍 Hierarchy Exploration 
 
 - **Get Subordinates**: Access both direct and indirect subordinates of a citizen.
 
@@ -50,7 +50,7 @@ The Martian Robot Society Hierarchy project offers a wide array of features and 
 
 - **Find Common Superior**: Determine the closest common superior of two citizens based on their IDs.
 
-### Society Management
+### 🚥 Society Management 
 
 - **Citizen Lookup**: Retrieve specific citizens based on their unique IDs.
 
@@ -60,7 +60,7 @@ The Martian Robot Society Hierarchy project offers a wide array of features and 
 
 - **Job-Based Citizen Retrieval**: Identify citizens based on their specific job roles within the society.
 
-### District Leadership
+### 🦾 District Leadership 
 
 - **District Leader**: Introduce DistrictLeaders who manage specific districts, which can be geographical or domain-based.
 
@@ -70,7 +70,7 @@ The Martian Robot Society Hierarchy project offers a wide array of features and 
 
 - **Role Transition**: Change the role of citizens between DistrictLeader and ordinary citizen as their responsibilities evolve.
 
-### Promotion and Deletion
+### 🎭 Promotion and Deletion 
 
 - **Promote Citizens**: Promote ordinary citizens based on their ratings, including swapping positions with superiors if necessary.
 
